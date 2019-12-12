@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Collection.xsd">
+    <name>Cold Steel Collection</name>
+    <weapon>
+        <type>Piercing</type>
+        <title>rapier</title>
+        <price>200.0</price>
+    </weapon>
+    <weapon>
+        <type>Stabbing</type>
+        <title>sword</title>
+        <price>10.0</price>
+    </weapon>
+    <weapon>
+        <type>Piercing</type>
+        <title>spear</title>
+        <price>100.0</price>
+    </weapon>
+    <weapon>
+        <type>ShockFragmenting</type>
+        <title>mace</title>
+        <price>300.0</price>
+    </weapon>
+    <weapon>
+        <type>Stabbing</type>
+        <title>katana</title>
+        <price>200.0</price>
+    </weapon>
+    <weapon>
+        <type>Chopping</type>
+        <title>tomahawk</title>
+        <price>210.0</price>
+    </weapon>
+</collection>

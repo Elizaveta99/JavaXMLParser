@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="collection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="name"/>
+                <xs:sequence>
+                    <xs:element name="weapon" type="weapon" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                </xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="weapon">
+        <xs:sequence>
+            <xs:element type="xs:string" name="type"/>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="xs:double" name="price"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
